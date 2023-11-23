@@ -15,4 +15,4 @@ It was a good learning experience, I get to work with...
 - [Glode] (https://glidejs.com)
 
 ## External Resources
-- [Rboto Font] (url)
+- [roboto font] (https://getbootstrap.com)
