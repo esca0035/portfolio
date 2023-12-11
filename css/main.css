@@ -20,11 +20,11 @@ html{
 }
 body {
     /* background for all pages */
-    background: purple url('../images/aboutme-backgrund.png') no-repeat right center;
+    background: var(--secondary-color) url('../images/aboutme-backgrund.png') no-repeat right center;
     background-size: cover;
     width: 100%;
     height: 100%;
-    overflow: hidden;
+    
 }
 
 body.homepage{
@@ -121,8 +121,8 @@ h1{
 }
 a{
     
-    text-decoration: none;
-    color: #381350;
+    text-decoration: none !important;
+    color: #381350 !important;
 }
 
 
@@ -158,7 +158,7 @@ a{
 
 /* Hover state Of Button "Start"*/
 .custom-button:hover {
-    background-color: var(--secondary-color); 
+    background-color: var(--background-color) ;
 }
 
 /* About page"*/
@@ -179,6 +179,8 @@ a{
 .aboutme-info > div:last-child{
     border: none;
 }
+
+
 
 /* Contact Page*/
 .contact div{
@@ -213,7 +215,7 @@ a{
   .icon {
     font-size: 50px;
     margin: 0 10px;
-    color: var(--primary-color); 
+    color: #997ABE; 
     text-decoration: none;
     transition: color 0.3s ease-in-out;
   }
@@ -252,4 +254,8 @@ a{
     border-radius: 15px;
     transition: background-color 0.3s;
    margin-left: 250px; 
+}
+
+.buttons:hover {
+    background-color: var(--background-color) ;
 }
