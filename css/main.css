@@ -261,3 +261,6 @@ a{
     background-color: var(--background-color) ;
 }
 
+footer{
+    padding: 30px;
+}
